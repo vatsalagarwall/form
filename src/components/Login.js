@@ -45,7 +45,7 @@ function Login() {
                 <input type="submit" onClick={submit} />
             </form>
             <br />
-            <Link to='/signup'>Signup Page</Link>
+            <Link to='/signup'>Signup Pag</Link>
         </div>
     )
 }
