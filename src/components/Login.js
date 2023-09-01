@@ -37,7 +37,7 @@ function Login() {
         <div className="login">
             <h1>Login Form</h1>
             <form input="POST">
-                <p>Login</p>
+                <p>Email</p>
                 <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email" />
                 <p>Password</p>
                 <input type="password" onChange={(e) => { setPassword(e.target.value) }} placeholder="Password" />
@@ -45,7 +45,7 @@ function Login() {
                 <input type="submit" onClick={submit} />
             </form>
             <br />
-            <Link to='/signup'>Signup Pag</Link>
+            <Link to='/signup'>Signup Page</Link>
         </div>
     )
 }
