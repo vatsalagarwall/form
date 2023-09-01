@@ -35,9 +35,11 @@ function Login() {
 
     return (
         <div className="login">
-            <h1>Login</h1>
+            <h1>Login Form</h1>
             <form input="POST">
+                <p>Login</p>
                 <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email" />
+                <p>Password</p>
                 <input type="password" onChange={(e) => { setPassword(e.target.value) }} placeholder="Password" />
 
                 <input type="submit" onClick={submit} />
