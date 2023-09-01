@@ -38,7 +38,7 @@ function Login() {
 
     return (
         <div className="login">
-            <h1>Signup</h1>
+            <h1>Signup Form</h1>
             <form input="POST">
                 <p>Email</p>
                 <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email" />
