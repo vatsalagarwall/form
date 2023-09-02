@@ -7,7 +7,7 @@ function Home() {
     return (
         <div className="homepage">
 
-            <h1>Hello {location.state.id} and welcome to the home</h1>
+            <h1>Hello {location.state.id} and welcome to the </h1>
 
         </div>
     )
